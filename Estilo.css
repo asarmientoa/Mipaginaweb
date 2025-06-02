@@ -1,7 +1,7 @@
-body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: aliceblue;}
-h1{color:darkblue;text-align: center;}
-fieldset{margin-right: 50px;margin-left: 400px;}
-ul{text-align: center;}
-ol{text-align: center;}
-li{list-style: none;}
-table{margin-left: 400px;margin-right: 50px;border: 1px solid black;border-collapse;}
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fdf6f9;}
+h1{color: #c71585;text-align: center;margin-top: 30px;}
+fieldset{margin: 20px;padding: 10px;width: 60%;border: 2px solid #c71585;background-color: #fff0f5;}
+ul{text-align: left;}
+ol{text-align: left;}
+table{margin-left: 300px;margin-right: 50px;border: 1px solid black;border-collapse:collapse;}
+a {color: #c71585;font-weight: bold;}
