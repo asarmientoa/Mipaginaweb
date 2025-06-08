@@ -1,7 +1,79 @@
-body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fdf6f9;}
-h1{color: #c71585;text-align: center;margin-top: 30px;}
-fieldset{margin: 20px;padding: 10px;width: 60%;border: 2px solid #c71585;background-color: #fff0f5;}
-ul{text-align: left;}
-ol{text-align: left;}
-table{margin-left: 300px;margin-right: 50px;border: 1px solid black;border-collapse:collapse;}
-a {color: #c71585;font-weight: bold;}
+body#pagina {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f9;
+    margin: 20px;
+}
+
+#titulo-principal {
+    color: #c71585;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+#foto-perfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #c71585;
+}
+
+.seccion {
+    margin: 20px auto;
+    padding: 15px;
+    width: 70%;
+    border: 2px solid #c71585;
+    background-color: #fff0f5;
+    border-radius: 10px;
+}
+
+.titulo-seccion {
+    color: #c71585;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 1em;
+    color: #444;
+}
+
+.lista {
+    width: 70%;
+    margin: 20px auto;
+    padding-left: 30px;
+    background-color: #ffe4f2;
+    border-left: 4px solid #c71585;
+}
+
+#tabla-tareas {
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid #c71585;
+    border-collapse: collapse;
+    background-color: #fff0f5;
+}
+
+#tabla-tareas th, #tabla-tareas td {
+    border: 1px solid #c71585;
+    padding: 10px;
+    text-align: center;
+}
+
+#form-contacto {
+    width: 70%;
+    margin: 20px auto;
+}
+
+#enlace-perfil {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    color: #c71585;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#enlace-perfil:hover {
+    text-decoration: underline;
+}
